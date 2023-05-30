@@ -1,0 +1,133 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+.container-fluid .first {
+  background-color: #000;
+}
+.container-fluid .first .b-first {
+  color: orange;
+  font-size: 30px;
+}
+.container-fluid .first .span-second {
+  color: #fff;
+  font-size: 30px;
+}
+.container-fluid .second {
+  background-color: orange;
+}
+
+li {
+  display: inline-block;
+  margin: 15px;
+}
+li a {
+  text-decoration: none;
+  color: #fff;
+}
+li a:hover {
+  transition: 0.5s;
+  color: #000;
+}
+li a i {
+  color: #000;
+}
+
+header {
+  scroll-behavior: smooth;
+  width: 100%;
+  height: 100vh;
+  background-image: url(https://preview.colorlib.com/theme/invest/images/home_slider_1.jpg);
+  background-size: 100%;
+}
+
+.homepage {
+  color: #000;
+  text-align: center;
+  margin-top: 10rem;
+}
+.homepage button {
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+}
+.homepage button:hover {
+  transition: 0.5s;
+  color: orange;
+  background-color: #fff;
+}
+
+#about-us {
+  margin-top: 3rem;
+  align-items: center;
+  display: inline-block;
+}
+#about-us .card {
+  margin-left: 15%;
+  border: none;
+}
+#about-us button {
+  background-color: orange;
+  border: none;
+  padding: 10px 20px;
+  color: #fff;
+}
+#about-us button:hover {
+  transition: 0.5s;
+  color: orange;
+  background-color: #fff;
+}
+
+#services {
+  margin-top: 4rem;
+}
+#services .take {
+  text-align: center;
+}
+#services .row {
+  margin-top: 6rem;
+  text-align: center;
+}
+
+#portfolio .lastest {
+  margin-top: 5rem;
+  text-align: center;
+}
+#portfolio .row {
+  margin-top: 3rem;
+  text-align: center;
+}
+#portfolio .row .btn {
+  background-color: orange;
+  color: #fff;
+  padding: 10px 20px;
+}
+#portfolio .row .btn:hover {
+  transition: 0.5s;
+  color: orange;
+  background-color: #fff;
+}
+
+#footer .last {
+  margin-top: 4rem;
+  width: 100%;
+  height: 400px;
+  background-color: rgb(36, 34, 34);
+}
+#footer .lastfooter {
+  background-color: #000;
+  width: 100%;
+  height: 150px;
+}
+#footer .lastfooter a {
+  font-size: 10px;
+}
+#footer .lastfooter a:hover {
+  transition: 0.5s;
+  color: orange;
+}
+#footer .last-p {
+  color: rgb(126, 120, 120);
+}
